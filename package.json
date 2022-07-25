@@ -1,0 +1,16 @@
+{
+  "name": "test-framework-comparison",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test:jest": "jest jest/index.jest.js",
+    "test:node": "node --test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
+}
